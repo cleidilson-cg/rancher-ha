@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rancher_ha_1693341273443-push-trigger-input-set
+  identifier: Build_rancher_ha_1693341273443pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rancher_ha_1693341273443
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
